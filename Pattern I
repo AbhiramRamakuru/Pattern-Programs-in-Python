@@ -1,0 +1,32 @@
+'''
+QUESTION:
+
+Write a Python Program to solve the pattern in dynamic.
+
+Sample Input 1:
+5
+Sample Output 1:
+*****
+*****
+*****
+*****
+*****
+
+'''
+
+# Program (Answer):
+
+#1st Method
+n = int(input())
+for i in range(n):
+    print(n*"*")
+
+    
+#2nd Method
+n = int(input())
+for i in range(n):
+    for j in range(n):
+        print('*',end='')
+    print('')
+    
+    
