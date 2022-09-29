@@ -1,0 +1,28 @@
+'''
+QUESTION:
+Write a Python program to print the given pattern from user-defined values(dynamic values)
+
+Sample Input 1:
+5
+Sample Output 1:
+11111
+22222
+33333
+44444
+55555
+
+'''
+# PROGRAM (Answer):
+
+#1st Method    
+n = int(input())
+for i in range(1,n+1):
+    for j in range(n):
+        print(i,end="")
+    print("")
+    
+    
+# #2nd Method
+# n = int(input())
+# for i in range(1,n+1):
+#     print(f'{i}'*n)
